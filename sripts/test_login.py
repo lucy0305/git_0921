@@ -8,9 +8,7 @@ class TestLogin():
     #     print("teardown")
     def test_login1(self):
         print("1")
-        num = random.randint(3)
-        if num ==2:
-            assert True
+        assert True
     def test_login2(self):
         print("2")
         assert False
